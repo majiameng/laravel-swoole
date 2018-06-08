@@ -39,8 +39,7 @@
             "aliases": {
                 "Server": "SwooleTW\\Http\\Server\\Facades\\Server",
                 "Table": "SwooleTW\\Http\\Server\\Facades\\Table",
-                "Room": "SwooleTW\\Http\\Websocket\\Facades\\Room",
-                "Websocket": "SwooleTW\\Http\\Websocket\\Facades\\Websocket"
+                "Room": "SwooleTW\\Http\\Websocket\\Facades\\Room"
             }
         }
     }
