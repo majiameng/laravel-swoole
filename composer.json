@@ -35,10 +35,7 @@
         "laravel": {
             "providers": [
                 "SwooleTW\\Http\\LaravelServiceProvider"
-            ],
-            "aliases": {
-                "Server": "SwooleTW\\Http\\Server\\Facades\\Server"
-            }
+            ]
         }
     }
 }
