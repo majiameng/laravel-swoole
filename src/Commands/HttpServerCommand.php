@@ -12,7 +12,8 @@ class HttpServerCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'swoole:http {action : start|stop|restart|reload|infos}';
+//    protected $signature = 'swoole:http {action : start|stop|restart|reload|infos}';
+    protected $signature = 'swoole:socket {action : start|stop|restart|reload|infos}';
 
     /**
      * The console command description.
