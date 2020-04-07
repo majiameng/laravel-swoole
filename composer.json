@@ -1,41 +1,25 @@
 {
     "name": "tinymeng/laravel-swoole",
-    "description": "High performance HTTP server based on Swoole. Speed up your Laravel and Lumen applications.",
-    "keywords": ["swoole", "laravel", "tinymeng", "performance", "http", "server"],
+    "description": "laravel-swoole",
+    "type": "library",
+    "keywords": [
+        "tinymeng", "laravel-swoole","laravel","php","swoole"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "JiaMeng Ma",
-            "email": "666@majiameng.com"
+            "email": "666@majiameng.com",
+            "homepage": "http://www.majiameng.com"
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/console": "~5.1",
-        "illuminate/contracts": "~5.1",
-        "illuminate/http": "~5.1",
-        "illuminate/support": "~5.1",
-        "predis/predis": "^1.1"
-    },
-    "require-dev": {
-        "laravel/lumen-framework": "~5.1",
-        "phpunit/phpunit": "^6.1",
-        "mockery/mockery": "~1.0",
-        "codedungeon/phpunit-result-printer": "^0.14.0"
+        "php": ">=5.4.0",
+        "tinymeng/tools": "^1.0.~"
     },
     "autoload": {
-        "files": [
-            "src/Server/helpers.php"
-        ],
         "psr-4": {
-            "SwooleTW\\Http\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SwooleTW\\Http\\LaravelServiceProvider"
-            ]
+            "tinymeng\\laravel\\swoole\\": ""
         }
     }
 }
